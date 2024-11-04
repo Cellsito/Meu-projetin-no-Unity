@@ -5874,6 +5874,9 @@ GameObject:
   - component: {fileID: 1484498069}
   - component: {fileID: 1484498070}
   - component: {fileID: 1484498071}
+  - component: {fileID: 1484498072}
+  - component: {fileID: 1484498073}
+  - component: {fileID: 1484498074}
   m_Layer: 0
   m_Name: Idle (32x32)_0 (7)
   m_TagString: Untagged
@@ -6048,14 +6051,54 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484498064}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95171a24e3fe23f4fa4aa638b97820d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: 0
-  vidaHeroi: 100
-  dano: 64
+  powerUp: 1
+  vidaHeroi: 200
+  dano: 1000
+--- !u!114 &1484498072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484498064}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a140ff649076631429044e93d94844ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Po\xE7\xE3oDeVida": 1
+--- !u!114 &1484498073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484498064}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863f96045f946d84dbdeeab3f580a008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "PontosDaMiss\xE3o": 51
+--- !u!114 &1484498074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484498064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d406fe890606b439e09552fc683fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Guerreiro: 0
+  Mago: 1
 --- !u!1 &1603636720
 GameObject:
   m_ObjectHideFlags: 0
