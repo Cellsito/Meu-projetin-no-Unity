@@ -24,7 +24,7 @@ public class exercicio06 : MonoBehaviour
         }
         else
         {
-            print("Escolha algum personagem");
+            print("https://www.youtube.com/watch?v=LMaG_uOa440");
         }
     }
 
