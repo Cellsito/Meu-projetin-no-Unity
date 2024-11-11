@@ -12,6 +12,7 @@ public class exercicio01 : MonoBehaviour
             print(num);
             num--;
         }
+        print("Início da partida");
     }
 
     // Update is called once per frame
